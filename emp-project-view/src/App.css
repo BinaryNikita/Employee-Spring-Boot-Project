@@ -1,0 +1,25 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%; 
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-image: url("./images/emp.jpeg");
+  background-size: cover; 
+  background-position: right center;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+}
+
+.App{
+
+  background-color: rgba(10, 32, 55, 0.915);
+}
+
